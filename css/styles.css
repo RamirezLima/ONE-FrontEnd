@@ -1,0 +1,254 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: "PT Sans", sans-serif;
+}
+
+/* CSS referente ao logotipo do site e o seu título */
+.header {
+  background-color: #fcdb00;
+  padding-top: 54px;
+}
+.container-header {
+  width: 100%;
+  max-width: 850px;
+  margin: 0 auto;
+}
+.header .container-header .header-logo {
+  float: left;
+}
+.header .container-header .header-menu {
+  float: right;
+  padding-top: 10px;
+}
+.header .container-header .header-logo img {
+  margin: 0px 0px 0px 0px;
+  vertical-align: middle;
+}
+
+.header .container-header .header-logo .titulo {
+  font-size: 30px;
+  color: #000000;
+  vertical-align: middle;
+  font-weight: 700;
+}
+.header .container-header .header-logo a {
+  text-decoration: none;
+}
+
+/* CSS referente ao menu de navegação principal */
+.header .header-menu .menu .item-menu {
+  display: inline-block;
+  font-size: 22px;
+  color: #000000;
+  font-weight: 700;
+}
+.header .header-menu .menu .item-menu a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #000000;
+}
+.header .header-menu .menu .item-menu a:hover {
+  text-decoration: underline;
+}
+.header .header-menu .menu .item-menu {
+  margin-right: 70px;
+}
+
+.header .header-menu .menu .item-menu:last-child {
+  margin-right: 0;
+}
+
+.header .container-banner {
+  clear: both;
+  width: 100%;
+  max-width: 850px;
+  margin: 0px auto;
+  padding-top: 57px;
+}
+.header .container-banner .header-texts {
+  width: 100%;
+  max-width: 393px;
+  float: left;
+  padding-top: 72px;
+}
+.header .container-banner .header-texts .header-title {
+  font-size: 32px;
+  color: #000000;
+  font-weight: 700;
+}
+.header .container-banner .header-texts .header-subtitle {
+  font-size: 20px;
+  color: #000000;
+  font-weight: 600;
+  padding-top: 26px;
+}
+.header .container-banner .header-texts .header-description {
+  font-size: 16px;
+  color: #000000;
+  font-weight: 500;
+  padding-top: 26px;
+}
+.header .container-banner .header-texts .header-icons {
+  padding-top: 40px;
+}
+.header .container-banner .header-texts .header-icons a {
+  margin-right: 38px;
+}
+
+.header .container-banner .header-texts .header-icons img:last-child {
+  margin-right: 0px;
+}
+
+.header .container-banner .header-ipad {
+  text-align: right;
+}
+.header .carousel img {
+  margin: 42px 0 47px 0;
+}
+.header .carousel {
+  text-align: center;
+}
+
+/* CSS referente a Features */
+
+.feature {
+  width: 100%;
+  max-width: 930px;
+  margin: 0px auto;
+}
+.feature .princip-text .title-feature {
+  font-weight: 700;
+  color: #000000;
+  font-size: 32px;
+  text-align: center;
+  padding-top: 118px;
+}
+.feature .princip-text .subtitle-feature {
+  font-weight: 500;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 17px;
+  margin: 0 0 90px 0;
+}
+.feature .block {
+  display: inline-block;
+  width: 100%;
+  max-width: 280px;
+  margin: 0 0 90px 0;
+}
+.feature .block img {
+  float: left;
+}
+
+.feature .block p {
+  font-weight: 500;
+  color: #898989;
+  font-size: 16px;
+}
+.feature .block h4 {
+  font-weight: 600;
+  color: #000000;
+  font-size: 22px;
+  margin: 0 0 19px 0;
+}
+.feature .block h4,
+.feature .block p {
+  margin: 0 0 0 auto;
+  width: 80%;
+}
+/* CSS referente ao footer */
+footer {
+  background-color: #000000;
+}
+.support .container-support {
+  width: 100%;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.support .princip-text h2 {
+  font-weight: 700;
+  color: yellow;
+  font-size: 32px;
+  text-align: center;
+  margin: 0 0 20px 0;
+  padding-top: 90px;
+}
+.support .princip-text p {
+  font-weight: 500;
+  color: #898989;
+  font-size: 20px;
+  text-align: center;
+  margin: 0 0 40px 0;
+}
+.support .container-support .email-form {
+  text-align: center;
+}
+.support .container-support .email-form input {
+  text-align: left;
+  padding-left: 20px;
+  width: 580px;
+  height: 45px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+.support .container-support .email-form button {
+  margin-left: 20px;
+  background-color: yellow;
+
+  border: 1px solid yellow;
+  border-radius: 4px;
+  display: inline-block;
+  cursor: pointer;
+
+  font-weight: bold;
+  font-size: 20px;
+  padding: 6px 10px;
+  text-decoration: none;
+}
+.support .container-support .email-form button:hover {
+  background-color: rgb(148, 148, 7);
+  border: 1px solid rgb(148, 148, 7);
+}
+
+.support .container-support .social {
+  margin-top: 75px;
+  text-align: center;
+}
+
+.support .container-support .social a {
+  margin: 0 30px 0 0;
+}
+.support .container-support .footer-bottom {
+  margin-top: 129px;
+}
+
+.support .container-support .footer-bottom .contact {
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 16px;
+  font-style: normal;
+  padding: 0px;
+  display: inline-block;
+  margin: 0 0 130px 0;
+}
+
+.support .container-support .footer-bottom .site-map li a {
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 16px;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.support .container-support .footer-bottom .site-map {
+  display: inline-block;
+  margin: 0 0 130px 100px;
+  float: none;
+  vertical-align: top;
+}
