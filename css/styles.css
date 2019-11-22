@@ -63,7 +63,7 @@ html {
 }
 
 .header .container-banner {
-  clear: both;
+  clear: both; /*---------------------------------*/
   width: 100%;
   max-width: 850px;
   margin: 0px auto;
@@ -192,7 +192,7 @@ footer {
 .support .container-support .email-form input {
   text-align: left;
   padding-left: 20px;
-  width: 580px;
+  width: calc(100% - 150px);
   height: 45px;
   background-color: #ffffff;
   border-radius: 5px;
@@ -251,4 +251,69 @@ footer {
   margin: 0 0 130px 100px;
   float: none;
   vertical-align: top;
+}
+@media (max-width: 944px) {
+  header {
+    padding: 0 10px;
+  }
+  .header .header-menu .menu .item-menu {
+    margin-right: 10px;
+    text-align: center;
+  }
+  .header .header-menu {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .header .container-banner {
+    padding-top: 0;
+  }
+  .container-banner .header-texts .header-title {
+    text-align: center;
+  }
+  .header .container-banner .header-texts .header-icons {
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
+  .header .container-banner .header-texts .header-icons a:last-child {
+    margin-right: 0;
+  }
+  .header .container-banner .header-ipad img {
+    max-width: 250px;
+  }
+  .header .container-banner .header-ipad {
+    text-align: center;
+  }
+  .feature {
+    padding: 0 10px;
+    width: 94%;
+  }
+  .support .container-support .email-form button {
+    margin-left: 0px;
+    margin-top: 6px;
+  }
+  .support .container-support .social a:last-child {
+    margin: 0;
+  }
+  .support .container-support .footer-bottom {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .support .container-support .footer-bottom .contact {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .support .container-support .footer-bottom .site-map {
+    margin: 0 0 10px 0;
+    width: 49%;
+  }
+  .header .container-banner .header-texts {
+    float: none;
+    margin: 0 auto;
+  }
+  .feature .block-container {
+    text-align: center;
+  }
 }
